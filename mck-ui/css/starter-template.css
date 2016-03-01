@@ -1,3 +1,14 @@
+.navbar ul {
+  display: table;
+  table-layout: fixed;
+}
+
+.navbar ul a {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
 body {
   padding-top: 50px;
 }
