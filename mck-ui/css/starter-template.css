@@ -1,5 +1,5 @@
 .navbar ul {
-  display: table;
+  display: fixed;
   table-layout: fixed;
 }
 
