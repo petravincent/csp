@@ -105,6 +105,10 @@ body {
   padding: 20px;
 }
 
+.starter-template.quote h3 {
+	margin-bottom: 20px;
+}
+
 img {
   border: 0 none;
   display: inline-block;
