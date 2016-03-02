@@ -16,9 +16,8 @@ body{
 }
 
 .navbar .learnmore {
-	float: right;
+	margin-left: 40%;
 	padding-right: 20px;
-	line-height: 50px;
 }
 
 .navbar-right.pull-right {
