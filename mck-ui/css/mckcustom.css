@@ -3,6 +3,7 @@ body{
 }
 
 .navbar {
+	padding-top: 30px;
 	background-color:black;
 	margin-bottom: 0px;
 	border: 0px;
@@ -10,15 +11,31 @@ body{
 	border-radius: 0 !important;
 }
 
-.navbar ul {
-  display: fixed;
-  table-layout: fixed;
+.navbar-brand {
+	color: white !important;
+}
+
+.navbar .learnmore {
+	margin-left: 40%;
+	padding-right: 20px;
+}
+
+.navbar-right.pull-right {
+	float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .navbar ul a {
   display: table-cell;
   vertical-align: middle;
   float: none;
+}
+
+.navbar-header {
+	line-height: 50px;
 }
 
 .fullwidth {
