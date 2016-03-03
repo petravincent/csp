@@ -44,12 +44,20 @@ body{
 }
 
 .fullwidth-less {
-    padding: 20px 15px 20px 15px;
-    text-align: center;
+  padding: 20px 15px 20px 15px;
+  text-align: center;
 }
 
 .fullwidth.quote h3 {
 	margin-bottom: 20px;
+}
+
+#subpageheader {
+	background-color: black;
+}
+
+#subpageheader h4 {
+	color: white;
 }
 
 .hero-feature {
@@ -58,20 +66,18 @@ body{
 
 .hero-feature .thumbnail {
 	padding: 0px;
-    height:144px;
-    overflow:hidden;
-      border-radius: 0px;
-    border: none;
-    background-color: none;
+  height:144px;
+  overflow:hidden;
+  border-radius: 0px;
+  border: none;
+  background-color: none;
 }
 
 
 
 .hero-feature .thumbnail img {
-width: 100%
+	width: 100%
 }
-
-
 
 .banner {
   width:100%;
@@ -314,6 +320,6 @@ width: 100%
   margin-bottom: 20px
 }
 
-span.glyphicon-arrow-left {
-  font-size: 1.2em;
+.navbar-header .navbar-brand {
+  font-size: 3em;
 }
