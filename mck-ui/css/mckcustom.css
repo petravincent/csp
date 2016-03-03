@@ -44,12 +44,31 @@ body{
 }
 
 .fullwidth-less {
-    padding: 20px 15px 20px 15px;
-    text-align: center;
+  padding: 20px 15px 20px 15px;
+  text-align: center;
 }
 
 .fullwidth.quote h3 {
 	margin-bottom: 20px;
+}
+
+#subpageheader {
+	background-color: black;
+  padding: 10px;
+}
+
+#subpageheader h4 {
+  font-weight: normal;
+  font-size: 13px;
+	color: white;
+}
+
+#subpageheader h4.primary{
+  text-transform: uppercase;
+}
+
+#subpageheader h4.secondary {
+  font-size: 16px;
 }
 
 .hero-feature {
@@ -58,20 +77,18 @@ body{
 
 .hero-feature .thumbnail {
 	padding: 0px;
-    height:144px;
-    overflow:hidden;
-      border-radius: 0px;
-    border: none;
-    background-color: none;
+  height:144px;
+  overflow:hidden;
+  border-radius: 0px;
+  border: none;
+  background-color: none;
 }
 
 
 
 .hero-feature .thumbnail img {
-width: 100%
+	width: 100%
 }
-
-
 
 .banner {
   width:100%;
@@ -100,10 +117,6 @@ width: 100%
   padding-bottom: 40px;
 }
 
-.row {
-	margin-bottom: 20px;
-}
-
 .row li {
   width: 33.3%;
   float: left;
@@ -127,8 +140,22 @@ width: 100%
 	margin-top: -30px;
 }
 
+.main h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .main p {
 	margin-bottom: 20px;
+}
+
+.fullwidth.quote {
+  background-color: #D8D8D8;
+  padding: 50px;
+}
+
+.fullwidth.quote h2 {
+  margin-bottom: 20px;
 }
 
 .post-content {
@@ -272,44 +299,48 @@ width: 100%
 }
 
 .circle{
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    color:red;
-    line-height:100px;
-    text-align:center;
-    background:#000;
-    background-position: center;
-    background-size: cover;
-   margin: auto;
-    margin-bottom: 20px;
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  color:red;
+  line-height:100px;
+  text-align:center;
+  background:#000;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .team .caption{
-    padding-top: 10px;
+  padding-top: 10px;
 
-    color:#fff;
-        line-height: 130%
+  color:#fff;
+  line-height: 130%
 }
 
 .team .caption h5{
-    color:#fff;
-    font-size: 16px;
+  color:#fff;
+  font-size: 16px;
 }
 
 .team .caption p{
-    color:#fff;
-    font-size: 14px;
+  color:#fff;
+  font-size: 14px;
 }
 
 .black-bg{
-        background-color: #000000;
+  background-color: #000000;
 }
 
 .grey-bg{
-        background-color: #666666;
+  background-color: #666666;
 }
 
 .team .col-sm-6{
-    margin-bottom: 20px
+  margin-bottom: 20px
+}
+
+.navbar-header .navbar-brand {
+  font-size: 1.8em;
 }
