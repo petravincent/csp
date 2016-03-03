@@ -54,10 +54,21 @@ body{
 
 #subpageheader {
 	background-color: black;
+  padding: 10px;
 }
 
 #subpageheader h4 {
+  font-weight: normal;
+  font-size: 13px;
 	color: white;
+}
+
+#subpageheader h4.primary{
+  text-transform: uppercase;
+}
+
+#subpageheader h4.secondary {
+  font-size: 16px;
 }
 
 .hero-feature {
@@ -106,10 +117,6 @@ body{
   padding-bottom: 40px;
 }
 
-.row {
-	margin-bottom: 20px;
-}
-
 .row li {
   width: 33.3%;
   float: left;
@@ -133,8 +140,22 @@ body{
 	margin-top: -30px;
 }
 
+.main h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .main p {
 	margin-bottom: 20px;
+}
+
+.fullwidth.quote {
+  background-color: #D8D8D8;
+  padding: 50px;
+}
+
+.fullwidth.quote h2 {
+  margin-bottom: 20px;
 }
 
 .post-content {
