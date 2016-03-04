@@ -38,6 +38,32 @@ body{
   line-height: 50px;
 }
 
+.fullwidth.banner {
+  position:relative;
+}
+
+.fullwidth.banner h1 {
+  position: absolute; 
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%; 
+}
+
+.container .fullwidth {
+  position:relative;
+}
+
+.container .fullwidth h3 {
+  color: #5C5858;
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%;
+}
+
 .fullwidth {
   padding: 40px 15px 40px 15px;
   text-align: center;
