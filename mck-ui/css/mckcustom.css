@@ -243,6 +243,7 @@ body{
     border-radius: 0px;
     color: #000000;
     background-color: #fff;
+    margin-top: 30px;
 }
 
 .nav-tabs {
@@ -252,6 +253,12 @@ body{
         width: 480px;
 
     
+}
+
+.nav-tabs>li {
+
+    width: 120px;
+    text-align: center;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -269,11 +276,7 @@ body{
     border-radius:0px;
 }
 
-.nav-tabs>li {
 
-    width: 120px;
-    text-align: center;
-}
 
 .nav-tabs h5 {
     font-size: 14px;
@@ -353,15 +356,20 @@ body{
   font-size: 1.8em;
 }
 .jumbotron{
-    background-image: url("../images/thumbs/CSP_00.png");
+    background-image: url("../images/test.jpg");
 background-size: cover;
-    min-height: 200px;
+    min-height: 400px;
     text-align: center;
 
 }
 
 .jumbotron h2{
         color: #fff;
+text-align: left;
+width: 60%;
+    display: block;
+    font-family: HelveticaNeueLight;
+    margin-top: 60px;
 
 }
 
@@ -419,15 +427,6 @@ background-size: cover;
 }
 
 
-@media (max-width: 600px) {
-.teasers{
-    padding: 0px;
-}
-}
-
-
-
-
 .csps{
     color: #ffffff;
     padding: 20px
@@ -437,6 +436,7 @@ background-size: cover;
     position: relative;
     display: block;
     top: 40%;
+    padding: 0px 20px;
 }
 
 .csp-01{
@@ -519,4 +519,75 @@ background-size: cover;
 }
 
 
+
+.team h2{
+    color:#ffffff;
+}
+
+.introduction-buckets{
+    
+min-height: 500px;
+}
+
+.introduction-buckets p{
+font-size: 16px;
+}
+
+
+.navbar-brand > img {
+    float: left;
+    width: 175px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.nav-text {
+    font-size: 18px;
+    color: #0BD7BE;
+    font-family: HelveticaNeueLight;
+}
+
+
+@media (max-width: 600px) {
+.teasers{
+    padding: 0px;
+}
+    
+    .navbar-brand > img {
+ display: none;
+}
+    
+    .jumbotron h2 {
+    width: 100%;
+    display: block;
+    font-family: HelveticaNeueLight;
+}
+    
+    .jumbtron{
+      height: 270px;
+    }
+    
+    .nav-tabs {
+    border-bottom: 0px solid #ddd;
+       margin: auto;
+    margin-bottom: 20px;
+        width: 480px;
+
+    
+}
+
+.nav-tabs>li {
+
+   width: 75px;
+    text-align: center;
+}
+    
+    
+.nav-tabs h5{
+font-size: 12px;
+}
+    
+   
+    
+}
 
