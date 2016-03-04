@@ -2,6 +2,19 @@ body{
   padding-top: 50px !important;
 }
 
+.fullwidth.banner {
+  position:relative;
+}
+
+.fullwidth.banner h1 {
+  position: absolute; 
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%; 
+}
+
 .navbar {
 	padding-top: 30px;
 	background-color:black;
@@ -48,12 +61,13 @@ body{
   text-align: center;
 }
 
-.fullwidth.quote {
+.fullwidth.quoteblock {
   margin-bottom: 0px;
 }
 
-.fullwidth.quote h3 {
+.fullwidth.quoteblock h3 {
 	margin-bottom: 20px;
+  color: gray;
 }
 
 #subpageheader {
@@ -72,7 +86,7 @@ body{
 }
 
 #subpageheader h4.secondary {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 #hero-features {
@@ -91,8 +105,6 @@ body{
   border: none;
   background-color: none;
 }
-
-
 
 .hero-feature .thumbnail img {
 	width: 100%
@@ -140,6 +152,10 @@ body{
 	margin-top: -30px;
 }
 
+.container .fullwidth h3 {
+  color: #5C5858;
+}
+
 .main h3 {
   font-weight: bold;
   margin-bottom: 20px;
@@ -147,15 +163,16 @@ body{
 
 .main p {
 	margin-bottom: 20px;
-  color: gray;
+  color: #5C5858;
 }
 
-.fullwidth.quote {
-  background-color: #D8D8D8;
+.fullwidth.quoteblock {
+  background-color: #E5E4E2;
   padding: 50px;
+  padding-bottom: 15px;
 }
 
-.fullwidth.quote h2 {
+.fullwidth.quoteblock h2 {
   margin-bottom: 20px;
 }
 
@@ -209,40 +226,40 @@ body{
   padding: 20px;
 }
 
-#learn-more h4 {
+#learn-more h3 {
 	color: white;
   font-weight: thin;
 }
 
 .fullwidth p {
-    font-size: 1em;
-    line-height: 1.5;
-    margin: 0;
-    color:#797979;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  color:#797979;
 }
 
 .learn-btn {
-    display: inline-block;
-    padding: 6px 20px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid #000000 ;
-    border-radius: 0px;
-    color: #000000;
-    background-color: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #000000 ;
+  border-radius: 0px;
+  color: #000000;
+  background-color: #fff;
 }
 
 .nav-tabs {
@@ -295,15 +312,18 @@ body{
     line-height: 130%;
 }
 
-.team h4 {
-  margin-top: 10px;
-  color: gray;
-}
-
-
 .team {
 	padding:40px;
   text-align: center;
+}
+
+.team h4 {
+  margin-top: 10px;
+  color: #5C5858;
+}
+
+.team p {
+  color: gray;
 }
 
 .circle{
