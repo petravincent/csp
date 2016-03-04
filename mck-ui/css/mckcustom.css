@@ -152,8 +152,17 @@ body{
 	margin-top: -30px;
 }
 
+.container .fullwidth {
+  position:relative;
+}
+
 .container .fullwidth h3 {
   color: #5C5858;
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%;
 }
 
 .main h3 {
