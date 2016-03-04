@@ -75,6 +75,10 @@ body{
   font-size: 16px;
 }
 
+#hero-features {
+  margin-bottom: 40px;
+}
+
 .hero-feature {
 	margin-bottom: -20px;
 }
@@ -205,7 +209,7 @@ body{
   padding: 20px;
 }
 
-#learn-more h2 {
+#learn-more h4 {
 	color: white;
   font-weight: thin;
 }
