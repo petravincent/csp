@@ -86,7 +86,7 @@ body{
 }
 
 #subpageheader h4.secondary {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 #hero-features {
@@ -163,7 +163,7 @@ body{
 
 .main p {
 	margin-bottom: 20px;
-  color: gray;
+  color: #5C5858;
 }
 
 .fullwidth.quoteblock {
