@@ -3,25 +3,25 @@ body{
 }
 
 .navbar {
-	padding-top: 30px;
-	background-color:black;
-	margin-bottom: 0px;
-	border: 0px;
-	color: white;
-	border-radius: 0 !important;
+  padding-top: 30px;
+  background-color:black;
+  margin-bottom: 0px;
+  border: 0px;
+  color: white;
+  border-radius: 0 !important;
 }
 
 .navbar-brand {
-	color: white !important;
+  color: white !important;
 }
 
 .navbar .learnmore {
-	margin-left: 40%;
-	padding-right: 20px;
+  margin-left: 40%;
+  padding-right: 20px;
 }
 
 .navbar-right.pull-right {
-	float: right;
+  float: right;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -35,7 +35,33 @@ body{
 }
 
 .navbar-header {
-	line-height: 50px;
+  line-height: 50px;
+}
+
+.fullwidth.banner {
+  position:relative;
+}
+
+.fullwidth.banner h1 {
+  position: absolute; 
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%; 
+}
+
+.container .fullwidth {
+  position:relative;
+}
+
+.container .fullwidth h3 {
+  color: #5C5858;
+  top: 35%;
+  bottom: 30%; 
+  left: 0;
+  text-align: center; 
+  width: 100%;
 }
 
 .fullwidth {
@@ -53,18 +79,18 @@ body{
 }
 
 .fullwidth.quote h3 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #subpageheader {
-	background-color: black;
+  background-color: black;
   padding: 10px;
 }
 
 #subpageheader h4 {
   font-weight: normal;
   font-size: 13px;
-	color: white;
+  color: white;
 }
 
 #subpageheader h4.primary{
@@ -80,11 +106,11 @@ body{
 }
 
 .hero-feature {
-	margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 .hero-feature .thumbnail {
-	padding: 0px;
+  padding: 0px;
   height:144px;
   overflow:hidden;
   border-radius: 0px;
@@ -95,7 +121,7 @@ body{
 
 
 .hero-feature .thumbnail img {
-	width: 100%
+  width: 100%
 }
 
 .banner {
@@ -137,7 +163,7 @@ body{
 }
 
 .navbar {
-	margin-top: -30px;
+  margin-top: -30px;
 }
 
 .main h3 {
@@ -146,7 +172,7 @@ body{
 }
 
 .main p {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   color: gray;
 }
 
@@ -168,7 +194,7 @@ body{
 }
 
 .feature-overlay {
-	z-index: 100;
+  z-index: 100;
   position: absolute;
   color: white;
   font-size: 24px;
@@ -205,12 +231,12 @@ body{
 }
 
 #learn-more {
-	background-color: black;
+  background-color: black;
   padding: 20px;
 }
 
 #learn-more h4 {
-	color: white;
+  color: white;
   font-weight: thin;
 }
 
@@ -305,7 +331,7 @@ body{
 
 
 .team {
-	padding:40px;
+  padding:40px;
   text-align: center;
 }
 
@@ -519,6 +545,7 @@ width: 60%;
 }
 
 
+<<<<<<< HEAD
 
 .team h2{
     color:#ffffff;
@@ -591,3 +618,5 @@ font-size: 12px;
     
 }
 
+=======
+>>>>>>> 037c875dd9b661bf98bd82f0e264ef511de19cd8
