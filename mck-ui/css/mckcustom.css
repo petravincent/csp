@@ -2,39 +2,26 @@ body{
   padding-top: 50px !important;
 }
 
-.fullwidth.banner {
-  position:relative;
-}
-
-.fullwidth.banner h1 {
-  position: absolute; 
-  top: 35%;
-  bottom: 30%; 
-  left: 0;
-  text-align: center; 
-  width: 100%; 
-}
-
 .navbar {
-	padding-top: 30px;
-	background-color:black;
-	margin-bottom: 0px;
-	border: 0px;
-	color: white;
-	border-radius: 0 !important;
+  padding-top: 30px;
+  background-color:black;
+  margin-bottom: 0px;
+  border: 0px;
+  color: white;
+  border-radius: 0 !important;
 }
 
 .navbar-brand {
-	color: white !important;
+  color: white !important;
 }
 
 .navbar .learnmore {
-	margin-left: 40%;
-	padding-right: 20px;
+  margin-left: 40%;
+  padding-right: 20px;
 }
 
 .navbar-right.pull-right {
-	float: right;
+  float: right;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -48,7 +35,7 @@ body{
 }
 
 .navbar-header {
-	line-height: 50px;
+  line-height: 50px;
 }
 
 .fullwidth {
@@ -61,24 +48,23 @@ body{
   text-align: center;
 }
 
-.fullwidth.quoteblock {
+.fullwidth.quote {
   margin-bottom: 0px;
 }
 
-.fullwidth.quoteblock h3 {
-	margin-bottom: 20px;
-  color: gray;
+.fullwidth.quote h3 {
+  margin-bottom: 20px;
 }
 
 #subpageheader {
-	background-color: black;
+  background-color: black;
   padding: 10px;
 }
 
 #subpageheader h4 {
   font-weight: normal;
   font-size: 13px;
-	color: white;
+  color: white;
 }
 
 #subpageheader h4.primary{
@@ -86,7 +72,7 @@ body{
 }
 
 #subpageheader h4.secondary {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #hero-features {
@@ -94,11 +80,11 @@ body{
 }
 
 .hero-feature {
-	margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 .hero-feature .thumbnail {
-	padding: 0px;
+  padding: 0px;
   height:144px;
   overflow:hidden;
   border-radius: 0px;
@@ -106,8 +92,10 @@ body{
   background-color: none;
 }
 
+
+
 .hero-feature .thumbnail img {
-	width: 100%
+  width: 100%
 }
 
 .banner {
@@ -149,20 +137,7 @@ body{
 }
 
 .navbar {
-	margin-top: -30px;
-}
-
-.container .fullwidth {
-  position:relative;
-}
-
-.container .fullwidth h3 {
-  color: #5C5858;
-  top: 35%;
-  bottom: 30%; 
-  left: 0;
-  text-align: center; 
-  width: 100%;
+  margin-top: -30px;
 }
 
 .main h3 {
@@ -171,17 +146,16 @@ body{
 }
 
 .main p {
-	margin-bottom: 20px;
-  color: #5C5858;
+  margin-bottom: 20px;
+  color: gray;
 }
 
-.fullwidth.quoteblock {
-  background-color: #E5E4E2;
+.fullwidth.quote {
+  background-color: #D8D8D8;
   padding: 50px;
-  padding-bottom: 15px;
 }
 
-.fullwidth.quoteblock h2 {
+.fullwidth.quote h2 {
   margin-bottom: 20px;
 }
 
@@ -194,7 +168,7 @@ body{
 }
 
 .feature-overlay {
-	z-index: 100;
+  z-index: 100;
   position: absolute;
   color: white;
   font-size: 24px;
@@ -231,49 +205,53 @@ body{
 }
 
 #learn-more {
-	background-color: black;
+  background-color: black;
   padding: 20px;
 }
 
-#learn-more h3 {
-	color: white;
+#learn-more h4 {
+  color: white;
   font-weight: thin;
 }
 
 .fullwidth p {
-  font-size: 1em;
-  line-height: 1.5;
-  margin: 0;
-  color:#797979;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+    color:#797979;
 }
 
 .learn-btn {
-  display: inline-block;
-  padding: 6px 20px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid #000000 ;
-  border-radius: 0px;
-  color: #000000;
-  background-color: #fff;
+    display: inline-block;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #000000 ;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #fff;
 }
 
 .nav-tabs {
     border-bottom: 0px solid #ddd;
-    margin-bottom: 20px
+       margin: auto;
+    margin-bottom: 20px;
+        width: 480px;
+
+    
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -293,7 +271,8 @@ body{
 
 .nav-tabs>li {
 
-    max-width: 89px;
+    width: 120px;
+    text-align: center;
 }
 
 .nav-tabs h5 {
@@ -316,18 +295,15 @@ body{
     line-height: 130%;
 }
 
-.team {
-	padding:40px;
-  text-align: center;
-}
-
 .team h4 {
   margin-top: 10px;
-  color: #5C5858;
+  color: gray;
 }
 
-.team p {
-  color: gray;
+
+.team {
+  padding:40px;
+  text-align: center;
 }
 
 .circle{
@@ -376,3 +352,170 @@ body{
 .navbar-header .navbar-brand {
   font-size: 1.8em;
 }
+.jumbotron{
+    background-image: url("../images/thumbs/CSP_00.png");
+background-size: cover;
+    min-height: 200px;
+    text-align: center;
+
+}
+
+.jumbotron h2{
+        color: #fff;
+
+}
+
+.intro-text h4{
+    padding: 60px 40px;
+    text-align: center;
+    color: #666;
+   font-family: HelveticaNeue;
+}
+
+.teasers{
+    padding: 20px;
+     position: relative;
+}
+.teaser-bucket-1{
+        background-image: url("../images/thumbs/CSP_00.png");
+        height:240px;
+    background-size: cover;
+}
+
+.teaser-bucket-2{
+        background-image: url("../images/thumbs/CSP_13.png");
+        height:240px;
+
+    background-size: cover;
+
+}
+
+.teaser-bucket-3{
+        background-image: url("../images/thumbs/CSP_01.png");
+        height:240px;
+
+    background-size: cover;
+
+}
+
+.sub-tag{
+    font-size: 12px;
+    color: #999;
+    
+}
+
+.teasers p{
+  position: relative;
+  color: white;
+  font-size: 18px;
+  top: 120px;
+  padding: 10px;
+  padding-top: 10px;
+  background-color: black;
+  display: block;
+  min-height: 40px;
+    width: 75%;
+  background: rgba(0, 0, 0, 0.5);  
+}
+
+
+@media (max-width: 600px) {
+.teasers{
+    padding: 0px;
+}
+}
+
+
+
+
+.csps{
+    color: #ffffff;
+    padding: 20px
+}
+
+.csps p{
+    position: relative;
+    display: block;
+    top: 40%;
+}
+
+.csp-01{
+        background-image: url("../images/thumbs/CSP_01.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-02{
+        background-image: url("../images/thumbs/CSP_02.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-03{
+        background-image: url("../images/thumbs/CSP_03.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-04{
+        background-image: url("../images/thumbs/CSP_04.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-05{
+        background-image: url("../images/thumbs/CSP_05png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-06{
+        background-image: url("../images/thumbs/CSP_06.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-07{
+        background-image: url("../images/thumbs/CSP_07.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-08{
+        background-image: url("../images/thumbs/CSP_08.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-09{
+        background-image: url("../images/thumbs/CSP_09.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-10{
+        background-image: url("../images/thumbs/CSP_10.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-11{
+        background-image: url("../images/thumbs/CSP_11.png");
+  background-size: cover;
+    height: 200px;
+}
+.csp-12{
+        background-image: url("../images/thumbs/CSP_12.png");
+  background-size: cover;
+    height: 200px;
+}
+
+.csp-13{
+        background-image: url("../images/thumbs/CSP_13.png");
+  background-size: cover;
+    height: 200px;
+}
+
+.csp-14{
+        background-image: url("../images/thumbs/CSP_14.png");
+  background-size: cover;
+    height: 200px;
+}
+
+.csp-15{
+        background-image: url("../images/thumbs/CSP_15.png");
+  background-size: cover;
+    height: 200px;
+}
+
+
