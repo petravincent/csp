@@ -471,83 +471,88 @@ width: 60%;
     padding: 0px 20px;
 }
 
+.csp-box{
+      height: 200px; 
+}
+
 .csp-01{
         background-image: url("../images/thumbs/CSP_01.png");
   background-size: cover;
-    height: 200px;
+ 
 }
 .csp-02{
         background-image: url("../images/thumbs/CSP_02.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-03{
         background-image: url("../images/thumbs/CSP_03.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-04{
         background-image: url("../images/thumbs/CSP_04.png");
   background-size: cover;
-    height: 200px;
+ 
 }
 .csp-05{
         background-image: url("../images/thumbs/CSP_05png");
   background-size: cover;
-    height: 200px;
+  
 }
 .csp-06{
         background-image: url("../images/thumbs/CSP_06.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-07{
         background-image: url("../images/thumbs/CSP_07.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-08{
         background-image: url("../images/thumbs/CSP_08.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-09{
         background-image: url("../images/thumbs/CSP_09.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-10{
         background-image: url("../images/thumbs/CSP_10.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-11{
         background-image: url("../images/thumbs/CSP_11.png");
   background-size: cover;
-    height: 200px;
+
 }
 .csp-12{
         background-image: url("../images/thumbs/CSP_12.png");
   background-size: cover;
-    height: 200px;
+
 }
 
 .csp-13{
         background-image: url("../images/thumbs/CSP_13.png");
   background-size: cover;
-    height: 200px;
+ 
 }
 
 .csp-14{
         background-image: url("../images/thumbs/CSP_14.png");
   background-size: cover;
-    height: 200px;
+
 }
 
 .csp-15{
         background-image: url("../images/thumbs/CSP_15.png");
   background-size: cover;
-    height: 200px;
+ 
+
 }
 
 
@@ -576,7 +581,7 @@ font-size: 16px;
 
 .nav-text {
     font-size: 18px;
-    color: #0BD7BE;
+/*    color: #0BD7BE;*/
     font-family: HelveticaNeueLight;
 }
 
@@ -587,7 +592,7 @@ font-size: 16px;
 }
     
     .navbar-brand > img {
- display: none;
+ display: block;
 }
     
     .jumbotron h2 {
@@ -608,6 +613,13 @@ font-size: 16px;
 
     
 }
+    
+    .nav-text {
+    font-size: 18px;
+/*    color: #0BD7BE;*/
+    font-family: HelveticaNeueLight;
+    display: inline-block;
+}
 
 .nav-tabs>li {
 
@@ -618,7 +630,30 @@ font-size: 16px;
     
 .nav-tabs h5{
 font-size: 12px;
-}   
+} 
+    
+    .csps{
+    color: #ffffff;
+    padding:5px
+}
+    
+    .navbar {
+        min-height: 110px;
+    }
+
+.csps p{
+position: relative;
+display: block;
+top: 10px;
+padding: 5px;
+    font-size: 14px
+}
+    
+    .csp-box{
+      height: 100px; 
+}
+
+    
 }
 
 .image-slider{text-align: center;}
