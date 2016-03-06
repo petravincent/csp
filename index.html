@@ -34,7 +34,32 @@
 })
 </script>
       
+<script>
+  
 
+$(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+
+// Change the speed to whatever you want
+// Personally i think 1000 is too much
+// Try 800 or below, it seems not too much but it will make a difference
+
+
+	</script>
       
               
 
@@ -59,24 +84,24 @@
     <div class="image-slider">
       <div class="slides">
          <ul class="rslides">
-             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/test.jpg"); background-size: cover;'>
+             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/partner.jpg"); background-size: cover;'>
                <div class="hero">
                  <h2 class="title">Partner with MDL to develop and bring new capabilities to our clients</h2>
                  <!-- <p><button type="button" class="learn-btn">Learn More</button></p> -->
                </div>
              </li>
-             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/test.jpg"); background-size: cover;'>
+             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/scalable.jpg"); background-size: cover;'>
                 <div class="hero">
                  <h2 class="title">We create scalable technology solutions based on your ideas across industries</h2>
                </div>
              </li>
-             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/image3.jpg"); background-size: cover;'>
+             <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/impact.jpg"); background-size: cover;'>
                 <div class="hero">
                  <h2 class="title">Solutions that drive impact through automation of existing activities…</h2>
                </div>
              </li>
              
-                <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/image3.jpg"); background-size: cover;'>
+                <li style='display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 2500ms ease-in-out; background-image: url("mck-ui/images/test.jpg"); background-size: cover;'>
                 <div class="hero">
                  <h2 class="title">...and enable new capabilities & insights through analytics</h2>
                </div>
@@ -86,7 +111,7 @@
     </div>
       
 
-<div class="arrow animated bounce">
+<div class="arrow animated bounce smoothScroll" onclick="location.href='#learn';">
   <img width="60" height="60" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEF
 kb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb2
 46IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMCIgaWQ9IkNhcGFfMSIgeG1sb
@@ -311,7 +336,7 @@ LjIsMzAyLjQsMjE3LjIsMjk5LjR6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" />
 
     </div> <!-- /container --> 
       
- <div class="team black-bg">
+ <div class="team black-bg" id="learn">
       <div class="fullwidth">
         <h2>Have an idea for a CSP or want to learn more?</h2>
         <h4>Contact Our Team</h4>
