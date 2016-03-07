@@ -271,6 +271,7 @@ body{
     color: #000000;
     background-color: #fff;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .nav-tabs {
@@ -406,11 +407,13 @@ width: 60%;
 }
 
 .intro-text h4{
-    padding: 60px 40px;
-    text-align: center;
-    color: #666;
-   font-family: HelveticaNeue;
+padding: 30px 80px;
+text-align: center;
+color: #666;
+font-family: HelveticaNeueLight;
+line-height: 160%;
 }
+ 
 
 .teasers{
     padding: 20px;
@@ -571,6 +574,13 @@ min-height: 500px;
 font-size: 16px;
 }
 
+.introduction-buckets h3{
+  font-family: HelveticaNeueLight;   
+text-align: center;
+    margin: 40px;
+    color:#009AA6
+}
+
 
 .navbar-brand > img {
     float: left;
@@ -599,6 +609,11 @@ font-size: 16px;
     width: 100%;
     display: block;
     font-family: HelveticaNeueLight;
+}
+    .slides .hero {
+    text-align: center;
+    width: 100%;
+
 }
     
     .jumbtron{
@@ -663,7 +678,7 @@ padding: 5px;
     top: 35%;
     right: 15%;
     z-index: 3000;
-    width: 40%;
+    width: 60%;
     margin-left: 0px;
     margin-right: 0px;
     margin: 0 auto !important;
@@ -937,5 +952,22 @@ margin: auto;
     background-image:url(../images/bg-image.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+
+.lightgrey-bg{
+    background-color: #f1f1f1;
+}
+
+.lightgrey-bg h3{
+    font-family: HelveticaNeueLight;
+    text-align: center;
+    margin: 40px;
+  
+}
+
+.introduction-buckets li{
+   width: 100%;
+float: none; 
+    margin-bottom: 10px;
 }
 
