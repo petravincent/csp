@@ -46,9 +46,12 @@ body{
   position: absolute; 
   top: 35%;
   bottom: 30%; 
-  left: 0;
   text-align: center; 
-  width: 100%; 
+  width: 90%; 
+  margin: auto;
+  font-family: HelveticaNeueLight, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+
 }
 
 .container .fullwidth {
@@ -236,6 +239,11 @@ body{
   padding: 20px;
 }
 
+#learn-more h3{
+  color: #ffffff;
+  font-size: 18px;
+}
+
 #learn-more h4 {
   color: white;
   font-weight: thin;
@@ -374,11 +382,21 @@ padding-top: 0px;
 }
 
 .black-bg{
-  background-color: #000000;
+  background-color: #222222;
 }
 
+.black-bg h2{
+ font-family: HelveticaNeueLight;
+ margin-bottom: 20px
+}
 .grey-bg{
   background-color: #666666;
+}
+
+.team .row{
+        margin-right: 0px;
+    margin-left: 0px;
+}
 }
 
 .team .col-sm-6{
@@ -557,6 +575,25 @@ line-height: 160%;
  
 
 }
+.csp-16{
+        background-image: url("../images/thumbs/CSP_16.png");
+  background-size: cover;
+ 
+
+}
+.csp-17{
+        background-image: url("../images/thumbs/CSP_17.png");
+  background-size: cover;
+ 
+
+}
+
+.csp-18{
+        background-image: url("../images/thumbs/CSP_18.png");
+  background-size: cover;
+ 
+
+}
 
 
 <<<<<<< HEAD
@@ -624,7 +661,7 @@ text-align: center;
     border-bottom: 0px solid #ddd;
        margin: auto;
     margin-bottom: 20px;
-        width: 480px;
+        width: 360px;
 
     
 }
@@ -944,8 +981,9 @@ margin: auto;
     color:#ffffff;
 }
 
-.learn-more h3{
+#learn-more h3, #learn-more a{
     color:#ffffff;
+         font-family: HelveticaNeueLight;
 }
 
 #csppg{
@@ -971,7 +1009,28 @@ float: none;
     margin-bottom: 10px;
 }
 
+/*
+div *{
+    border: 1px red solid;
+}*/
 
-.*{
-    border: 1px solid red;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.team .col-md-4{
+  margin-bottom: 20px;
 }
