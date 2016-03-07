@@ -300,7 +300,7 @@ body{
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #555;
     cursor: default;
-    background-color: #fff;
+    background-color: #f1f1f1;
     border: 2px solid transparent;
     border-bottom-color: #666666;
 }
@@ -438,13 +438,13 @@ line-height: 160%;
      position: relative;
 }
 .teaser-bucket-1{
-        background-image: url("../images/thumbs/CSP_00.png");
+        background-image: url("../images/thumbs/CSP_14.png");
         height:240px;
     background-size: cover;
 }
 
 .teaser-bucket-2{
-        background-image: url("../images/thumbs/CSP_13.png");
+        background-image: url("../images/thumbs/CSP_11.png");
         height:240px;
 
     background-size: cover;
@@ -452,7 +452,7 @@ line-height: 160%;
 }
 
 .teaser-bucket-3{
-        background-image: url("../images/thumbs/CSP_01.png");
+        background-image: url("../images/thumbs/CSP_13.png");
         height:240px;
 
     background-size: cover;
@@ -475,7 +475,7 @@ line-height: 160%;
   background-color: black;
   display: block;
   min-height: 40px;
-    width: 75%;
+    width: 85%;
   background: rgba(0, 0, 0, 0.5);  
 }
 
@@ -661,7 +661,7 @@ text-align: center;
     border-bottom: 0px solid #ddd;
        margin: auto;
     margin-bottom: 20px;
-        width: 360px;
+        width: 320px;
 
     
 }
@@ -1009,10 +1009,12 @@ float: none;
     margin-bottom: 10px;
 }
 
+
 /*
 div *{
     border: 1px red solid;
-}*/
+}
+*/
 
 html {
   position: relative;
