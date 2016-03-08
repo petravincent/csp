@@ -436,6 +436,7 @@ line-height: 160%;
 .teasers{
     padding: 20px;
      position: relative;
+     cursor:pointer;
 }
 .teaser-bucket-1{
         background-image: url("../images/thumbs/CSP_14.png");
@@ -482,7 +483,8 @@ line-height: 160%;
 
 .csps{
     color: #ffffff;
-    padding: 20px
+    padding: 20px;
+    cursor:pointer
 }
 
 .csps p{
