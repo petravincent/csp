@@ -611,12 +611,13 @@ min-height: 500px;
 
 .introduction-buckets p{
 font-size: 16px;
+    padding: 10px;
 }
 
 .introduction-buckets h3{
   font-family: HelveticaNeueLight;   
 text-align: center;
-    margin: 40px;
+    margin: 28px;
     color:#009AA6
 }
 
